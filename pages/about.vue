@@ -53,27 +53,43 @@
 
             <div class="grid grid-cols-4 gap-6 max-w-8xl mx-auto">
                 <div class="shadow-md p-4 text-center">
-                    <div class="font-bold">Geography</div>
-                    <div>Africa or Africa-focused</div>
+                    <div class="font-bold pb-3">Geography</div>
+                    <div>
+                        <img :src="require('@/images/africa.png')" class="mx-auto w-40 h-40" />
+                    </div>
+                    <div class="p-2"></div>
+                    <div class="text-sm font-semibold">Africa or Africa-focused</div>
                 </div>
 
                 <div class="shadow-md p-4 text-center">
-                    <div class="font-bold">Industries/Focus areas</div>
-                    <div>Software, technology-enabled businesses, industry consolidation</div>
+                    <div class="font-bold pb-3">Industries/Focus areas</div>
+                    <div>
+                        <img :src="require('@/images/software.png')" class="mx-auto w-40 h-40" />
+                    </div>
+                    <div class="p-2"></div>
+                    <div class="text-sm font-semibold">Software, technology-enabled businesses, industry consolidation</div>
                 </div>
 
                 <div class="shadow-md p-4 text-center">
-                    <div class="font-bold">Revenue</div>
-                    <div>Greater than $5 million</div>
+                    <div class="font-bold pb-3">Revenue</div>
+                    <div>
+                        <img :src="require('@/images/revenue.png')" class="mx-auto w-40 h-40" />
+                    </div>
+                    <div class="p-2"></div>
+                    <div class="text-sm font-semibold">Greater than $5 million</div>
                 </div>
 
                 <div class="shadow-md p-4 text-center">
-                    <div class="font-bold">Enterprise value</div>
-                    <div>Up to $1 billion</div>
+                    <div class="font-bold pb-3">Enterprise value</div>
+                    <div>
+                        <img :src="require('@/images/value.png')" class="mx-auto w-40 h-40" />
+                    </div>
+                    <div class="p-2"></div>
+                    <div class="text-sm font-semibold">Up to $1 billion</div>
                 </div>
             </div>
 
-            <div class="p-4"></div>
+            <div class="p-16"></div>
 
             <div class="text-center text-4xl">Transaction types</div>
             <div class="p-2"></div>
@@ -81,7 +97,7 @@
             <div class="grid grid-cols-5 gap-6 max-w-7xl mx-auto text-center">
                 <div class="shadow-md p-4">
                     <div>
-                        <img :src="require('@/images/capital.png')" class="justify-center w-60" />
+                        <img :src="require('@/images/capital.png')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
                 
@@ -90,7 +106,7 @@
 
                 <div class="shadow-md p-4">
                     <div>
-                        <img :src="require('@/images/capital.png')" class="justify-center w-60" />
+                        <img :src="require('@/images/capital.png')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
                 
@@ -99,7 +115,7 @@
 
                 <div class="shadow-md p-4">
                     <div>
-                        <img :src="require('@/images/capital.png')" class="justify-center w-60" />
+                        <img :src="require('@/images/capital.png')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
                 
@@ -108,7 +124,7 @@
 
                 <div class="shadow-md p-4">
                     <div>
-                        <img :src="require('@/images/capital.png')" class="justify-center w-60" />
+                        <img :src="require('@/images/capital.png')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
                 
@@ -117,7 +133,7 @@
 
                 <div class="shadow-md p-4">
                     <div>
-                        <img :src="require('@/images/capital.png')" class="justify-center w-60" />
+                        <img :src="require('@/images/capital.png')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
                 
@@ -125,8 +141,9 @@
                 </div>
             </div>
 
-            <div class="p-4"></div>
+           <div class="p-16"></div>
 
+            <div>
             <div class="text-center text-4xl">Working with us</div>
             <div class="p-2"></div>
 
@@ -134,7 +151,7 @@
 
                 <div class="shadow-md p-4 max-w-sm rounded-md">
                     <div>
-                        <img :src="require('@/images/capital.png')" class="justify-center w-60" />
+                        <img :src="require('@/images/capital.png')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
 
@@ -149,7 +166,7 @@
 
                 <div class="shadow-md p-4 rounded-md">
                     <div>
-                        <img :src="require('@/images/investor.svg')" class="justify-center w-60" />
+                        <img :src="require('@/images/investor.svg')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
 
@@ -164,7 +181,7 @@
 
                 <div class="shadow-md p-4 rounded-md">
                     <div>
-                        <img :src="require('@/images/talent.svg')" class="justify-center w-60" />
+                        <img :src="require('@/images/talent.svg')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
 
@@ -179,7 +196,7 @@
 
                 <div class="shadow-md p-4 rounded-md">
                     <div>
-                        <img :src="require('@/images/closing.svg')" class="justify-center w-60" />
+                        <img :src="require('@/images/closing.svg')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
 
@@ -194,7 +211,7 @@
 
                 <div class="shadow-md p-4 rounded-md">
                     <div>
-                        <img :src="require('@/images/feedback.svg')" class="ustify-center w-60" />
+                        <img :src="require('@/images/feedback.svg')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
 
@@ -209,7 +226,7 @@
 
                 <div class="shadow-md p-4 rounded-md">
                     <div>
-                        <img :src="require('@/images/invest.png')" class="justify-center w-60" />
+                        <img :src="require('@/images/invest.png')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
 
@@ -234,7 +251,7 @@
 
                 <div class="shadow-md p-4 rounded-md">
                     <div>
-                        <img :src="require('@/images/growth.svg')" class="flex justify-center w-60" />
+                        <img :src="require('@/images/trust.svg')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
 
@@ -248,7 +265,7 @@
 
                 <div class="shadow-md p-4 rounded-md">
                     <div>
-                        <img :src="require('@/images/improve.svg')" class="flex justify-center w-60" />
+                        <img :src="require('@/images/climb.svg')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
 
@@ -262,7 +279,7 @@
 
                 <div class="shadow-md p-4 rounded-md">
                     <div>
-                        <img :src="require('@/images/steward.svg')" class="flex justify-center w-60" />
+                        <img :src="require('@/images/steward.svg')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
 
@@ -276,7 +293,7 @@
 
                 <div class="shadow-md p-4 rounded-md">
                     <div>
-                        <img :src="require('@/images/done.svg')" class="flex justify-center w-60" />
+                        <img :src="require('@/images/done.svg')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
 
@@ -292,7 +309,7 @@
 
                 <div class="shadow-md p-4 rounded-md">
                     <div>
-                        <img :src="require('@/images/grit.svg')" class="flex justify-center w-60" />
+                        <img :src="require('@/images/grit.svg')" class="mx-auto w-60 h-48" />
                     </div>
                     <div class="p-2"></div>
 
@@ -304,6 +321,7 @@
                         We combine perseverance, tenacity, and passion in our quest to fulfil our mission.
                     </div>
                 </div>
+            </div>
             </div>
 
             <div class="p-4"></div>

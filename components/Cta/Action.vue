@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="text-white text-xl max-w-3xl font-medium text-7xl">
-            The better we <span class="underline underline-offset-8"> know you</span>, the more we can do. We'll take <span class="underline underline-offset-8">you farther</span>.
+            The better we <span class="underline underline-offset-8"> know you</span>, the more we can do. We will take <span class="underline underline-offset-8">you farther</span>.
         </div>
 
         <div class="py-6">
