@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-auto">
+  <div class="container px-10 mx-auto">
       <div class="flex justify-between items-center">
             <div class="">
                 <img :src="require('@/images/logo1.png')" class="cover w-72 h-full" />

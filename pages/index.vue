@@ -5,7 +5,7 @@
       <TabMaintab class="my-2 absolute z-10" />
     </div>
     <div class="container mx-auto relative">
-      <CtaAction class="my-60 absolute z-10"/>
+      <CtaAction class="absolute z-10 my-48 xl:my-60"/>
     </div>
     <div class="w-full h-screen bg-primary-100 bg-opacity-50 absolute"></div>
     <HomepagebgBg/>

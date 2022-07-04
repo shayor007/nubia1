@@ -1,6 +1,6 @@
 <template>
     <div class="bg-primary-100 w-full">
-        <div class="container py-1 mx-auto flex justify-between text-sm">
+        <div class="container py-1 mx-auto flex justify-between text-sm px-10">
             <div class="text-white ">
                 Email: <span class="font-semibold">career@nubiacapital.com</span> 
             </div>
