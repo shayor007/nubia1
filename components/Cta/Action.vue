@@ -1,14 +1,23 @@
 <template>
+<<<<<<< HEAD
     <div>
         <div class="text-white text-xl max-w-3xl font-medium text-7xl">
             The better we <span class="underline underline-offset-8"> know you</span>, the more we can do. We will take <span class="underline underline-offset-8">you farther</span>.
+=======
+    <div class="h-full px-10">
+        <div class="">
+            <div class="text-white text-4xl md:text-5xl max-w-3xl font-medium lg:text-6xl xl:text-7xl">
+                The better we <span class="underline underline-offset-8"> know you</span>, the more we can do. We'll take <span class="underline underline-offset-8">you farther</span>.
+            </div>
+
+            <div class="py-6">
+                <button class="font-semibold border-2 border-white rounded-sm text-white py-2 px-4 hover:bg-white hover:text-black duration-500 ease-in-out">
+                    Let's Talk Business
+                </button>
+            </div>
+>>>>>>> ba8a0ed13a3b7739c0d0f978a7c6ccdd3ae2edc3
         </div>
 
-        <div class="py-6">
-            <button class="py-1 px-1 font-semibold border-2 border-white rounded-sm text-white">
-                Let's Talk Business
-            </button>
-        </div>
   </div>
 </template>
 
