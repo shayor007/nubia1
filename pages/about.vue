@@ -6,73 +6,80 @@
         <TabMaintab class="my-2 absolute z-10"/>
         </div>
 
-        <div class="">
+
+        <div class="">        
+            <div class="w-full bg-primary-100 bg-opacity-50 absolute h-96"></div>
+
             <img :src="require('@/images/conf.jpg')" class="object-cover h-96 w-full justify-center" />
         </div>
 
-        <div class="absolute z-10 top-52 w-full flex justify-center text-white text-5xl">
-            Get Familiar With Us
+        <div class="absolute z-10 top-52 w-full flex justify-center mx-auto text-center text-white text-4xl md:text-5xl max-w-3xl font-medium lg:text-6xl xl:text-7xl">
+            <h1>Get Familiar With Us</h1>
         </div>
 
         <div class="p-4"></div>
 
+        <div class="container mx-auto px-10">
+            <div class="lg:flex">
+                <div class="lg:w-1/2 lg:pr-4">
+                    <div>
+                        <div class="text-center text-4xl font medium mb-2">
+                            About Nubia Capital. 
+                        </div>
+
+                        <div class="text-base">
+                            We aim to become the most reputable private investment firm with a focus on the African continent <br />
+                            With access to more than $4 billion of capital, we are conscientiously investing in Africa to help
+                            exceptional people create and grow exceptional
+                            businesses. We believe that conscientious investing is key to a better future -
+                            a healthier planet, a smarter economy, a diverse and happier community, and a broader path to prosperity.
+                            Nubia is a people driven investment firm with a focus on the African Continent.
+                        </div> 
+                    </div>
+
+                    <div>
+                        <div class="text-center font-medium mb-2 mt-6 text-4xl">The Nubia Way</div>
+                        <div class="p-2"></div>
+
+                        <div class="text-sm">We win by having the best people work on the best opportunities using the very best practices. 
+
+                            CEOs and Founders are at the center of everything we do. We work with exceptional CEOs and Founders who share our
+                            values and passion for building enduring purpose-driven companies. We then provide these CEOs and Founders with the 
+                            support and capital they need to accelerate growth in their next chapter.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 lg:pl-4">
+                    <div class="text-center text-4xl font-medium">Where We Invest</div>
+                    <div class="p-2"></div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="shadow-lg bg-gray-50 p-4">
+                            <div class="font-bold mb-2 text-center">Geography</div>
+                            <div>Africa or Africa-focused</div>
+                        </div>
+
+                        <div class="shadow-lg bg-gray-50 p-4">
+                            <div class="font-bold mb-2 text-center">Industries/Focus areas</div>
+                            <div>Software, technology-enabled businesses, industry consolidation</div>
+                        </div>
+
+                        <div class="shadow-lg bg-gray-50 p-4">
+                            <div class="font-bold mb-2 text-center">Revenue</div>
+                            <div>Greater than $5 million</div>
+                        </div>
+
+                        <div class="shadow-lg bg-gray-50 p-4">
+                            <div class="font-bold mb-2 text-center">Enterprise value</div>
+                            <div>Up to $1 billion</div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
         <div class="container mx-auto">
-                
-            <div class="text-center text-6xl">
-                About Nubia Capital. 
-            </div>
-
-            <div>
-                We aim to become the most reputable private investment firm with a focus on the African continent 
-            </div>
-
-            <div>	
-                With access to more than $4 billion of capital, we are conscientiously investing in Africa to help
-                exceptional people create and grow exceptional
-                businesses. We believe that conscientious investing is key to a better future – 
-                a healthier planet, a smarter economy, a diverse and happier community, and a broader path to prosperity.
-                Nubia is a people driven investment firm with a focus on the African Continent.
-            </div>
-
-            <div class="p-4"></div>
-
-            <div class="text-center text-4xl">The Nubia Way</div>
-            <div class="p-2"></div>
-
-            <div>We win by having the best people work on the best opportunities using the very best practices. 
-
-                CEOs and Founders are at the center of everything we do. We work with exceptional CEOs and Founders who share our
-                values and passion for building enduring purpose-driven companies. We then provide these CEOs and Founders with the 
-                support and capital they need to accelerate growth in their next chapter.
-            </div>
-
-            <div class="p-4"></div>
-
-            <div class="text-center text-4xl">Where We Invest</div>
-            <div class="p-2"></div>
-
-            <div class="grid grid-cols-4 gap-6 max-w-8xl mx-auto">
-                <div class="shadow-md p-4 text-center">
-                    <div class="font-bold">Geography</div>
-                    <div>Africa or Africa-focused</div>
-                </div>
-
-                <div class="shadow-md p-4 text-center">
-                    <div class="font-bold">Industries/Focus areas</div>
-                    <div>Software, technology-enabled businesses, industry consolidation</div>
-                </div>
-
-                <div class="shadow-md p-4 text-center">
-                    <div class="font-bold">Revenue</div>
-                    <div>Greater than $5 million</div>
-                </div>
-
-                <div class="shadow-md p-4 text-center">
-                    <div class="font-bold">Enterprise value</div>
-                    <div>Up to $1 billion</div>
-                </div>
-            </div>
-
             <div class="p-4"></div>
 
             <div class="text-center text-4xl">Transaction types</div>
@@ -308,8 +315,8 @@
 
             <div class="p-4"></div>
         </div>
+        </div>
 
-       
     </div>
 </template>
 
@@ -320,5 +327,8 @@ export default {
 </script>
 
 <style>
-
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  body{
+    font-family: "Poppins", sans-serif;
+  }
 </style>
